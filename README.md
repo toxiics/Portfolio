@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/toxiics/portfolio/blob/master/LICENSE)
 
-A React + Vite template powered by shadcn/ui.
+A React + Vite site powered by shadcn/ui.
 
 ## 🎉 Stack
 
