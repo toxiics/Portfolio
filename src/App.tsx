@@ -13,7 +13,9 @@ function App() {
 				{/* Section Accueil */}
 				<section
 					id="home"
-					className="bg-gradient-to-tr from-[897px at 9% 80.3%] from-[rgba(55,60,245,1)] from-0% to-[rgba(234,161,15,0.90)] to-100.2% text-white h-screen flex items-center justify-center"
+					className="bg-gradient-to-tr  from-[rgba(55,60,245,1)] from-0% to-[rgba(234,161,15,0.90)] to-100.2% 
+					dark:bg-gradient-to-tr dark:from-neutral-900 dark:via-blue-900 dark:to-black
+					text-white h-screen flex items-center justify-center"
 				>
 					<div className="flex flex-col text-center gap-8">
 						<h1 className="font-bold animate-fadeInShort">SALUT, JE SUIS</h1>
@@ -38,7 +40,7 @@ function App() {
 				{/* Section Projets */}
 				<section
 					id="projects"
-					className="py-16 bg-gray-200"
+					className="py-16"
 				>
 					<div className="container mx-auto text-center">
 						<h2 className="text-3xl font-extrabold mb-8">Mes Projets</h2>

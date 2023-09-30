@@ -55,9 +55,16 @@
 			--ring: 224.3 76.3% 48%;
 		}
 
+		section {
+			@apply bg-background;
+			@apply text-foreground;
+			@apply hover:dark:bg-accent;
+			@apply hover:dark:text-accent-foreground;
+		}
+
 		h1 {
 			@apply text-5xl;
-			@apply font-semibold;
+			@apply font-extrabold;
 		}
 		h2 {
 			@apply text-3xl;
@@ -65,15 +72,26 @@
 		}
 		h3 {
 			@apply text-2xl;
-			@apply font-semibold;
+			@apply font-bold;
 		}
 		h4 {
 			@apply text-xl;
-			@apply font-semibold;
+			@apply font-bold;
 		}
 		h5 {
 			@apply text-lg;
-			@apply font-semibold;
+			@apply font-bold;
+		}
+
+		li {
+			@apply uppercase;
+			@apply font-bold;
+			@apply hover:scale-90;
+		}
+
+		a {
+			@apply transition-transform;
+			@apply hover:text-primary;
 		}
 	}
 }
