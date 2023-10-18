@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/theme-provider";
+import SkillsComponent from "./components/skills";
 
 function App() {
 	return (
@@ -30,11 +31,11 @@ function App() {
 				{/* Section À propos */}
 				<section
 					id="about"
-					className="py-16"
+					className="py-16 p-12"
 				>
 					<div className="container mx-auto text-center">
-						<h2 className="text-3xl font-extrabold mb-8">À propos de moi</h2>
-						{/* Texte, image, compétences, etc. */}
+						<h2 className="text-[2rem] font-extrabold mb-8">À propos de moi</h2>
+						<SkillsComponent />
 					</div>
 				</section>
 				{/* Section Projets */}

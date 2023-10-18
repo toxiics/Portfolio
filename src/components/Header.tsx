@@ -9,35 +9,8 @@ const scrollToTop = () => {
 export default class Header extends Component {
 	render() {
 		return (
-			// <header className="bg-white shadow-sm">
-			// 	<nav className="container mx-auto py-4">
-			// 		<ul className="flex space-x-4">
-			// 			<li>
-			// 				<a href="#home" className="text-gray-800">
-			// 					Accueil
-			// 				</a>
-			// 			</li>
-			// 			<li>
-			// 				<a href="#about" className="text-gray-800">
-			// 					À propos
-			// 				</a>
-			// 			</li>
-			// 			<li>
-			// 				<a href="#projects" className="text-gray-800">
-			// 					Projets
-			// 				</a>
-			// 			</li>
-			// 			<li>
-			// 				<a href="#contact" className="text-gray-800">
-			// 					Contact
-			// 				</a>
-			// 			</li>
-			// 		</ul>
-			// 	</nav>
-			// </header>
-
 			<header
-				className="flex justify-between items-center fixed w-full 
+				className="z-20 flex justify-between items-center fixed w-full 
 				bg-background text-foreground hover:bg-accent hover:text-accent-foreground
 				py-4 px-10"
 			>
